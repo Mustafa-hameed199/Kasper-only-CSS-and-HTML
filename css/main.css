@@ -331,7 +331,7 @@ header nav .form i{
   padding-bottom:var(--section-padding);
   height:600px;
   position: relative;
-  background-image: url("../image/landing11.jpg");
+  background-image: url("/image/landing11.jpg");
   background-size: cover;
   display: flex;
   align-items: center;
@@ -343,7 +343,7 @@ header nav .form i{
     flex-direction: column-reverse;
     justify-content: center;
     align-items:center;
-    background-image: url("../image/landing11(1).jpg")
+    background-image: url("/image/landing11.jpg")
   }
 }
 .design::before{
@@ -367,12 +367,7 @@ header nav .form i{
 }
 @media (max-width:767px) {
   .design .image{
-    padding-right:50px;
-    height:400px;
-  }
-  .design .image img{
-    bottom: -110px;
-    margin-top:-100px;
+    display: none;
   }
 }
 .design .text{
@@ -492,7 +487,7 @@ header nav .form i{
   background-color: rgb(0 0 0 / 30%);
 }
 .video video{
-  max-width: 100%;
+ width: 100%;
 }
 .video .text{
   width: 100%;
